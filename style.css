@@ -20,7 +20,7 @@
 }
 
 .Audience{
-    padding : 50px 50px 0 50px;
+    padding : 120px 60px 0 50px;
 }
 
 .Audience h1{
@@ -30,9 +30,7 @@
 }
 
 .Audience h1 span{
-       text-decoration: underline 1px;
-       text-decoration-color: #ffffffda;
-
+       text-decoration: underline 1px; 
 }
 
 .Audience h4{
@@ -40,4 +38,38 @@
     font-weight: 60;
     font-family: sans-serif;
     line-height: 25px;
-    }
+    margin-bottom: 30px;
+
+}
+
+.SearchBtn{
+    position: relative;
+    width: 300px;
+
+}
+
+.SearchBtn input{
+    width: 100%;
+    padding: 12px;
+    padding-right: 80px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+
+
+/* .SearchBtn input::placeholder{
+  font-size: 20px;
+} */
+
+.SearchBtn button{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.062);
+    background-color: rgb(85, 201, 85);
+    color: black;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    padding: 0 15px;
+}
