@@ -1,4 +1,9 @@
 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
    *{
     margin: 0;
     padding: 0;
@@ -24,8 +29,8 @@
 }
 
 .Audience h1{
-    font-family: sans-serif;
-    font-weight: 150;   
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;   
     padding-bottom: 20px;
 }
 
@@ -36,7 +41,8 @@
 .Audience h4{
     font-size: 15px;
     font-weight: 60;
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500; 
     line-height: 25px;
     margin-bottom: 30px;
 
@@ -79,8 +85,8 @@
     display: flex;
     gap: 5px;
     flex: 1;
-    font-family: sans-serif;
-
+    font-family: "Open Sans", sans-serif;
+    /* font-weight: 500;    */
 }
 
 .MyBoxes .firstbox{
@@ -93,14 +99,14 @@
 .MyBoxes .firstbox h1{
     font-size: 40px;
     padding:20px 0 0 20px ;
-    font-weight: 100;
+    font-weight: 500;
 
 }
 
 .MyBoxes .firstbox h3{
     font-size: 15px;
     padding-left:20px ;
-    font-weight:20;
+    font-weight:300;
 
 }
 
@@ -115,11 +121,23 @@
 .MyBoxes .secondbox h1{
     font-size: 40px;
     padding:20px 0 0 20px ;
-    font-weight:100;
+    font-weight:500;
 }
 
 .MyBoxes .secondbox h3{
     font-size: 15px;
     padding-left:20px ;
-    font-weight:20;
+    font-weight:300;
 }
+
+/* KIDSTARS */
+
+.Stars{
+    margin: 20px 0 0 20px;
+    display: flex;
+    gap: 5px;
+    flex: 1;
+}
+.Stars span{
+    color:blueviolet;
+  }
