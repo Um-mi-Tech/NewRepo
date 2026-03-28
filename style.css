@@ -91,8 +91,14 @@
 }
 
 .Text h1 span{
-       text-decoration: underline 1px; 
+    text-decoration: underline 1px;
+    /* -webkit-text-stroke:#000; */
 }
+ /* .Text h1 span  {
+  text-decoration: none;
+  border-bottom: 2px wavy #8b4513;
+  padding-bottom: 2px;
+} */
 
 .Text h4{
     font-size: 15px;
