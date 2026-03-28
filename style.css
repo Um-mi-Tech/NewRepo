@@ -15,30 +15,86 @@
 }
 
 .container{
-    background-color: rgb(240, 248, 255);
+    background-color: rgba(0, 0, 0, 0.020);
+    padding: 20px 0 0 60px;
     min-height: 100vh; 
     max-width: 100%;
-    /* background-color:#ffffffda; */
     justify-content: space-evenly;
     border-radius: 20px;  
 
 }
 
-.Audience{
-    padding : 120px 60px 0 50px;
+.Header {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Logo{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
 }
 
-.Audience h1{
+.Logo i{
+    font-size: 15px;
+}
+
+.List ul{
+    display: flex;
+    margin-right:350px;
+
+    /* margin-top: 2%; */
+}
+.List ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.List ul li a{
+    font-size:16px ;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: 4s ease;
+}
+
+.Language{
+    display: flex;
+    gap: 20px;
+}
+
+.Language button{
+    padding: 5px;
+    border: none;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.Language h5{
+    margin-right:60px;
+    font-size: 13px;
+    font-weight: 20;
+    padding: 10px;
+    border-radius:3px;
+    background-color:#fff;
+}
+.Hero{
+    padding-top: 70px;
+}
+.Text h1{
     font-family: "Open Sans", sans-serif;
     font-weight: 500;   
     padding-bottom: 20px;
 }
 
-.Audience h1 span{
+.Text h1 span{
        text-decoration: underline 1px; 
 }
 
-.Audience h4{
+.Text h4{
     font-size: 15px;
     font-weight: 60;
     font-family: "Open Sans", sans-serif;
@@ -62,11 +118,6 @@
     border: 1px solid rgba(0, 0, 0, 0.062);
 }
 
-
-
-/* .SearchBtn input::placeholder{
-  font-size: 20px;
-} */
 
 .SearchBtn button{
     border-radius: 10px;
@@ -92,9 +143,9 @@
 .MyBoxes .firstbox{
     width: 200px;
     height: 110px ;
-    background-color:#fff;
+    background-color: #fff;
     color:black;
-    border: 2px solid #ffffffda;
+    /* border: 2px solid #ffffffda; */
 }
 .MyBoxes .firstbox h1{
     font-size: 40px;
@@ -113,7 +164,7 @@
 
 .MyBoxes .secondbox{
     width: 200px;
-    background-color:#fff;
+    background-color: #fff;
     color:black;
     border: 2px solid #ffffffda;
 }
@@ -132,12 +183,35 @@
 
 /* KIDSTARS */
 
-.Stars{
+.RateStars{
     margin: 20px 0 0 20px;
     display: flex;
+    gap:10px
+}
+
+.Stars{
+    display: flex;
     gap: 5px;
-    flex: 1;
+    /* flex: 1; */
 }
 .Stars span{
-    color:blueviolet;
-  }
+    font-size: 20px; 
+    padding-bottom: 15px;
+}
+.Rate{
+    display: flex;
+    gap:15px;
+
+}
+
+.Rate h4{
+    margin-right:20px;
+
+}
+
+.Rate h5{
+    color: rgba(175, 175, 175, 0.986)
+    
+}
+
+
