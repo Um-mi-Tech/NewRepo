@@ -40,6 +40,7 @@ body{
     align-items:center;
     gap:8px;
     font-weight:600;
+    margin-left: 30px;
 }
 
 .navlist{
@@ -86,6 +87,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    margin-left: 30px;
 }
 
 .left{
@@ -170,6 +172,7 @@ body{
     align-items:center;
     justify-content:center;
     color:#aaa;
+    margin-right: 30px;
 }
 
 /* COOKIE BAR */
